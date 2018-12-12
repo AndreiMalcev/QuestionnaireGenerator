@@ -1,6 +1,7 @@
 public class BarCode {
     private int user_id;
     private int form_id;
+    private int page_number;
 
     public int getUser_id() {
         return user_id;
@@ -18,4 +19,15 @@ public class BarCode {
         this.form_id = form_id;
     }
 
+    public int getPage_number() {
+        return page_number;
+    }
+
+    public void setPage_number(int page_number) {
+        this.page_number = page_number;
+    }
+
+    public void putBarCode() {
+
+    }
 }
